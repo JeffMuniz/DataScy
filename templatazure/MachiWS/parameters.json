@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "brazilsouth"
+        },
+        "workspaceName": {
+            "value": "MachiWS"
+        },
+        "resourceGroupName": {
+            "value": "MachiRG"
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "keyVaultName": {
+            "value": "machiws6392291101"
+        },
+        "storageAccountName": {
+            "value": "machiws4884490235"
+        },
+        "applicationInsightsName": {
+            "value": "machiws8159458377"
+        },
+        "storageAccountOption": {
+            "value": "new"
+        },
+        "keyVaultOption": {
+            "value": "new"
+        },
+        "applicationInsightsOption": {
+            "value": "new"
+        }
+    }
+}
